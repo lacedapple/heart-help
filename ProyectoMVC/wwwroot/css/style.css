@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.main{
+    width: 100%;
+    background: #ffffff;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #6FB3A6;
+    font-size: 40px;
+    font-family: Brush Script MT,serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#94d7ca;
+    font-family: lucida bright, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #3D877A;
+}
+
+.content{
+    width: 1200px;
+    height:auto;
+    margin:auto;
+    color:black;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Times New Roman,serif;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: Times New Roman,serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: #bee4e7;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 210 px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#92b3c2;
+    font-size: 22px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:#ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input{
+    outline: none;
+}
+
+::placeholder{
+    color:#ffffff;
+    font-family: sans-serif;
+}
+
+.btn{
+    width: 210px;
+    height: 40px;
+    background-color: #6a9fb0;
+    border: none;
+}
