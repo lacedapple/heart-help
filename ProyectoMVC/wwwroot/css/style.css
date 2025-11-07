@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +23,7 @@
 .logo{
     color: #5f93ab;
     font-size: 40px;
-    font-family: Verdana,serif;
+    font-family: "Outfit", sans-serif;
     font-weight: bold;
     padding-left: 20px;
     float: left;
@@ -51,7 +53,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #73a2bd;
-    font-family: Tahoma, serif;
+    font-family: "Outfit", sans-serif;;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
@@ -71,12 +73,12 @@ ul li a:hover{
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-family: Helvetica,serif;
+    font-family: "Josefin Sans", sans-serif;
     line-height: 30px;
 }
 
 .content h1{
-    font-family: Helvetica,serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
     padding-left: 20px;
     margin-top: 9%;
@@ -96,7 +98,7 @@ ul li a:hover{
 
 .form h2{
     width: 210 px;
-    font-family: sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-align: center;
     color:#92b3c2;
     font-size: 22px;
@@ -118,7 +120,7 @@ ul li a:hover{
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-    font-family: sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .form input{
@@ -127,7 +129,7 @@ ul li a:hover{
 
 ::placeholder{
     color:#ffffff;
-    font-family: sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .btn{
@@ -152,7 +154,7 @@ ul li a:hover{
 }
 
 .form .link{
-    font-family: Helvetica;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;

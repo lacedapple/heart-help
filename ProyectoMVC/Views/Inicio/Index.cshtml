@@ -1,1 +1,67 @@
-<h1>HOLAA MUNDO</h1>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Form Inicio de Sesión/Registro</title>
+    <link rel="stylesheet" href="~/css/styyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- inicio s form-->
+        <div class="form-box login"></div>
+        <form action="#">
+            <h1>Iniciar sesion</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Nombre de usuario" required />
+                <i class="fa-solid fa-user"></i>
+            </div>
+             <div class="input-box">
+                <input type="password" placeholder="Contraseña" required />
+                <i class="fa-solid fa-lock"></i>
+            </div>
+           <a href="#" class="btn">Aceptar</a>
+        </form>
+        <!-- registro-->
+        <div class="form-box registro"></div>
+    <div class="form-box registro"></div>
+        <form action="#">
+            <h1>Registro</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Nombre de usuario" required />
+                <i class="fa-solid fa-user"></i>
+            </div>
+             <div class="input-box">
+                <input type="email" placeholder="Email" required />
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+             <div class="input-box">
+                <input type="password" placeholder="Contraseña" required />
+                <i class="fa-solid fa-lock"></i>
+            </div>
+           <a href="#" class="btn">Aceptar</a>
+        </form>
+        <!--toggle box -->
+        <div class="toggle-box">
+            <!--toggle box left-->
+            <div class="toggle-panel toggle-left"></div>
+            <h1>Bienvenido de vuelta</h1>
+            <p>¿No tienes una cuenta aún?</p>
+            <button class="btn register-btn">Registrarse</button>
+            <!--toggle box left-->
+            <div class="toggle-panel toggle-right"></div>
+            <h1>Bienvenido</h1>
+            <p>¿Ya tienes una cuenta?</p>
+            <button class="btn login-btn">Iniciar sesión</button>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

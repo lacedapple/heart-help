@@ -7,6 +7,10 @@ public class InicioController : Controller
     {
         return View();
     }
+    public IActionResult Hola()
+    {
+        return View();
+    }
     public IActionResult Registro()
     {
         return View();
