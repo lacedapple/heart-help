@@ -7,11 +7,28 @@ public class InicioController : Controller
     {
         return View();
     }
-    public IActionResult Hola()
+    public IActionResult InicioSesion()
     {
         return View();
     }
     public IActionResult Registro()
+    {
+        return View();
+    }
+    public IActionResult Principal()
+    {
+        return View();
+    }
+    public IActionResult ChatBot()
+    {
+        return View();
+    }
+
+    public IActionResult Calendario()
+    {
+        return View();
+    }
+    public IActionResult Finalizado()
     {
         return View();
     }
