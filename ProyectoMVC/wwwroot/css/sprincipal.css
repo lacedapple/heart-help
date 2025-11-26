@@ -33,6 +33,15 @@
     padding: 0;
 }
 
+.iconcalmi {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    border: transparent;
+    background-color: #ffffff;
+    padding: 0;
+}
+
 h1 {
     width: fit-content;
     font-family: "Josefin Sans", sans-serif;

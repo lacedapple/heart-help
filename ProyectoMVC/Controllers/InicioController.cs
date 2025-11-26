@@ -7,14 +7,16 @@ public class InicioController : Controller
     {
         return View();
     }
-    public IActionResult InicioSesion()
-    {
-        return View();
-    }
     public IActionResult Registro()
     {
         return View();
     }
+
+     public IActionResult AcercaDe()
+    {
+        return View();
+    }
+
     public IActionResult Principal()
     {
         return View();
