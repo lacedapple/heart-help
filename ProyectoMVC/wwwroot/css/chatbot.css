@@ -11,7 +11,7 @@ body {
 
 .chat-container {
     width: 400px;
-    box-shadow: black;
+    box-shadow: rgba(0, 0, 0, 0.2) 8px rgba(0, 0, 0, 0.2);
     background-color: aliceblue;
     border-radius: 5px;
     overflow: hidden;
@@ -20,13 +20,44 @@ body {
 
 .chat-box {
     height: 300px;
-    overflow-y: 10px;
+    overflow-y: auto;
     padding: 10px;
     border-bottom: 1px solid #ddd;
 
 }
 
-.mensaje{
-    margin: 10px;
-    
+.mensaje {
+    margin: 10px 0;
+}
+
+.mensaje.user {
+    text-align: right;
+}
+
+.mensaje.bot {
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(131, 182, 196);
+    color: #ffff;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+
+}
+
+button:hover{
+    background-color: rgb(82, 124, 142);
 }
