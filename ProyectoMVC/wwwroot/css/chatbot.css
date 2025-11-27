@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(187, 220, 237);
+    font-family: "Outfit", Arial;
+    background-color: rgb(209, 247, 254);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,8 +21,9 @@ body {
 
 .chat-box {
     height: 300px;
-    overflow-y: auto;
+    overflow-y: 10px;
     padding: 10px;
+    background-color: rgb(255, 255, 255);
     border-bottom: 1px solid #ddd;
 
 }
@@ -43,8 +45,8 @@ input[type="text"] {
     padding: 10px;
     border: none;
     border-top: 1px solid #ddd;
+    color: rgb(78, 78, 78);
     outline: none;
-    box-sizing: border-box;
 }
 
 button{
@@ -55,7 +57,6 @@ button{
     color: #ffff;
     cursor: pointer;
     border-top: 1px solid #ddd;
-
 }
 
 button:hover{
