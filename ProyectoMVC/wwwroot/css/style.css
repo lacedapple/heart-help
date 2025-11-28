@@ -73,12 +73,12 @@ ul li a:hover{
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Outfit", sans-serif;;
     line-height: 30px;
 }
 
 .content h1{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 40px;
     padding-left: 20px;
     margin-top: 9%;
@@ -98,7 +98,7 @@ ul li a:hover{
 
 .form h2{
     width: 210 px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Outfit", sans-serif;;
     text-align: center;
     color:#92b3c2;
     font-size: 22px;
@@ -120,7 +120,7 @@ ul li a:hover{
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Outfit", sans-serif;;
 }
 
 .form input{
@@ -129,7 +129,7 @@ ul li a:hover{
 
 ::placeholder{
     color:#ffffff;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Outfit", sans-serif;;
 }
 
 .btn{
@@ -154,7 +154,7 @@ ul li a:hover{
 }
 
 .form .link{
-    font-family: "Josefin Sans", sans-serif;
+    font-family:"Outfit", sans-serif;;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
