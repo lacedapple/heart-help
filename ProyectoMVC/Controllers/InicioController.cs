@@ -34,4 +34,13 @@ public class InicioController : Controller
     {
         return View();
     }
+     public IActionResult Crisis()
+    {
+        return View();
+    }
+     public IActionResult Consejos()
+    {
+        return View();
+    }
+    
 }

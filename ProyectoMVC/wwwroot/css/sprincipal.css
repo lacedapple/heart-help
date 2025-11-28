@@ -54,8 +54,8 @@ h1 {
     padding: 8px;
 }
 
-p{
-     width: fit-content;
+p {
+    width: fit-content;
     font-family: "Josefin Sans", sans-serif;
     text-align: center;
     color: #2c2f30;
@@ -64,4 +64,66 @@ p{
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
+}
+
+.arrow-icon i {
+    font-size: 40px;
+    color: #6dacb7;
+    ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.arrow-icon i:hover {
+    color: #468994;
+    ;
+    transform: scale(1.05);
+}
+
+.arrow-icon {
+    position: fixed;
+    top: 50%;
+    left: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.arrow-icon-right i {
+    font-size: 40px;
+    color: #6dacb7;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.arrow-icon-right i:hover {
+    color: #468994;
+    ;
+    transform: scale(1.05);
+}
+
+.arrow-icon-right {
+    position: fixed;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%)
+}
+
+.link-crisis {
+    position: fixed; 
+    top: 10px;      
+    right: 30px;     
+    z-index: 1000;   
+    text-decoration: none; 
+}
+
+.exclamation {
+   
+    font-size: 40px;
+    color: #6dacb7; 
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.link-crisis:hover .exclamation { 
+    color: #468994;
+    transform: scale(1.05);
 }

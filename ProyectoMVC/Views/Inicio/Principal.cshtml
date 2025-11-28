@@ -1,18 +1,51 @@
-<h1>Bienvenido a HeartHelp</h1>
-<link rel="stylesheet" href="~/css/sprincipal.css" />
-<p>¿Cómo te gustaría comenzar?</p>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenido a HeartHelp</title>
 
 
+    <link rel="stylesheet" href="~/css/sprincipal.css" />
 
-<a asp-controller="Inicio" asp-action="ChatBot">
-<button class="btn">
-    <img src="~/img/Diseño sin título (1).png" alt="icononav" class="icononav">
-</button>
-</a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMD/CDQ+iYOpRz/NlGzT/8eA4j60E6G5t7U8T/09/rUfL52Kq2K8U8C8O3T11A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-<a asp-controller="Inicio" asp-action="Calendario">
-<button class="btn">
-    <img src="~/img/iconcal.png" alt="iconcal" class="iconcal">
-</button>
-</a>
+<body>
 
+    <div class="main-content">
+        <h1>Bienvenido a HeartHelp</h1>
+        <p>¿Cómo te gustaría comenzar?</p>
+
+        <!-- Botón para ChatBot: Enlace con estilo de botón -->
+        <a asp-controller="Inicio" asp-action="ChatBot" class="btn action-button">
+            <img src="~/img/Diseño sin título (1).png" alt="Icono para iniciar el Chatbot" class="icononav">
+        </a>
+
+        <a asp-controller="Inicio" asp-action="Calendario" class="btn action-button">
+            <img src="~/img/iconcal.png" alt="Icono para ver el Calendario" class="iconcal">
+        </a>
+
+        <div class="arrow-icon">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+        </div>
+
+        <a href="~/Inicio/Consejos/" class="link-consejos">
+        <div class="arrow-icon-right">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+        </div>
+        </a>
+
+
+        <a href="~/Inicio/Crisis/" class="link-crisis">
+            <div class="exclamation">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>
