@@ -1,5 +1,8 @@
 <head>
-<link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMD/CDQ+iYOpRz/NlGzT/8eA4j60E6G5t7U8T/09/rUfL52Kq2K8U8C8O3T11A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <h4>¿Cómo estuvo mi día hoy?</h4>
 <div class="mb-3">
@@ -7,15 +10,23 @@
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
 </div>
 
-<h4>Hoy me sentí...</h4>
-<select class="form-select" aria-label="Default select example">
-    <option selected>Emociones</option>
-    <option value="1">Triste</option>
-    <option value="2">Feliz</option>
-    <option value="3">Enojado/a</option>
-    <option value="4">Nostalgico/a</option>
-    <option value="5">Enamorado/a</option>
-    <option value="6">Decepcionado</option>
-     <option value="3">Esperanzado</option>
-</select>
-<a href="~/Inicio/Finalizado/" class="btn">Listo</a>
+<body>
+    <h4>Hoy me sentí...</h4>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Emociones</option>
+        <option value="1">Triste</option>
+        <option value="2">Feliz</option>
+        <option value="3">Enojado/a</option>
+        <option value="4">Nostalgico/a</option>
+        <option value="5">Enamorado/a</option>
+        <option value="6">Decepcionado</option>
+        <option value="3">Esperanzado</option>
+    </select>
+        <a href="~/Inicio/Finalizado/" class="btn">Listo</a>
+    <a href="~/Inicio/Principal/" class="principal-link">
+        <div class="arrow-icon">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+        </div>
+    </a>
+
+</body>

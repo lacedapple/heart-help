@@ -171,3 +171,24 @@ ul li a:hover{
     padding-bottom: 10px;
     text-align: center;
 }
+
+.arrow-icon i {
+    font-size: 40px;
+    color: #6dacb7;
+    ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.arrow-icon i:hover {
+    color: #468994;
+    ;
+    transform: scale(1.05);
+}
+
+.arrow-icon {
+    position: fixed;
+    top: 50%;
+    left: 40px;
+    transform: translate(-50%, -50%);
+}

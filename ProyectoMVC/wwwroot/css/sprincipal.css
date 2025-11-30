@@ -34,12 +34,10 @@
 }
 
 .iconcalmi {
-    width: 100px;
-    height: 100px;
-    vertical-align: middle;
-    border: transparent;
-    background-color: #ffffff;
-    padding: 0;
+    width: 150px;          
+    height: 150px;            
+    align-items: middle;
+    object-fit: cover;
 }
 
 h1 {
