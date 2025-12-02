@@ -125,3 +125,18 @@ p {
     color: #468994;
     transform: scale(1.05);
 }
+
+.card-title{
+    width: fit-content;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #9fcccd;
+    border-radius: 0px;
+    margin: 2px;
+    padding: 8px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
