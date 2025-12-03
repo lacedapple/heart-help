@@ -28,7 +28,7 @@ function displayMessage(message, sender) {
 function getBotResponse(userInput) {
     let botResponse = '';
     if (userInput.toLowerCase().includes('hola')) {
-        botResponse = '¡Hola! Bienvenido al Asistente Virtual de Heart Help. Mi nombre es Calmi. ¿Cómo te sientes hoy?  1-Alegre 2-Triste 3-Enojado 4-Ansioso';
+        botResponse = '¡Hola! Bienvenido al Asistente Virtual de Heart Help. Mi nombre es Kalmi. ¿Cómo te sientes hoy?  1-Alegre 2-Triste 3-Enojado 4-Ansioso';
 
     }
     else if (userInput.toLowerCase().includes('1')) {
@@ -77,7 +77,7 @@ function getBotResponse(userInput) {
         botResponse = "¿Qué le dice un jaguar a otro jaguar?...Jaguar You?";
     }
     else {
-        botResponse = "Calmi incorporará cada vez más respuestas a tus preguntas. Por ahora no se tiene una respuesta predeterminada.";
+        botResponse = "Kalmi incorporará cada vez más respuestas a tus preguntas. Por ahora no se tiene una respuesta predeterminada.";
     }
 
     setTimeout(() => {
